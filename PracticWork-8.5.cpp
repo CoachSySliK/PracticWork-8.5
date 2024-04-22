@@ -39,5 +39,6 @@ int main()
     int tempSec = (time / distance) % 60;
     cout << name << "Твой темп: " << tempMin << ending(tempMin, 109) << " " << tempSec << ending(tempSec, 115) << endl;
 
+
     return 0;
 }
